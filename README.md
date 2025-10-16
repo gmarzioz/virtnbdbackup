@@ -16,6 +16,7 @@ of your `kvm/qemu` virtual machines.
 - [Prerequisites](#prerequisites)
   - [Libvirt versions <= 7.6.0 (Debian Bullseye, Ubuntu 20.x)](#libvirt-versions--760-debian-bullseye-ubuntu-20x)
   - [RHEL/Centos Stream, Alma, Rocky Linux](#rhelcentos-stream-alma-rocky-linux)
+  - [Fedora42](#fedora)
     - [Version <= 8.5](#version--85)
     - [Version >= 8.6](#version--86)
   - [Environment dependencies](#environment-dependencies)
