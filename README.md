@@ -16,9 +16,9 @@ of your `kvm/qemu` virtual machines.
 - [Prerequisites](#prerequisites)
   - [Libvirt versions <= 7.6.0 (Debian Bullseye, Ubuntu 20.x)](#libvirt-versions--760-debian-bullseye-ubuntu-20x)
   - [RHEL/Centos Stream, Alma, Rocky Linux](#rhelcentos-stream-alma-rocky-linux)
-  - [Fedora42](#fedora)
     - [Version <= 8.5](#version--85)
     - [Version >= 8.6](#version--86)
+  - [Fedora42](#fedora)
   - [Environment dependencies](#environment-dependencies)
 - [Installation](#installation)
   - [Python package](#python-package)
@@ -165,6 +165,8 @@ and enable the feature by adjusting the virtual machine config.
 As of RHEL 8.6, the advanced virtualization stream has been deprecated,
 and all components supporting the new feature are included in the
 virt:rhel module, the feature is enabled by default. [(Details)](https://access.redhat.com/solutions/6959344)
+
+# Fedora
 
 ## Environment dependencies
  
