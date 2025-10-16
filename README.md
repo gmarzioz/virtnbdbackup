@@ -172,7 +172,7 @@ virt:rhel module, the feature is enabled by default. [(Details)](https://access.
  * requirement-fedora.txt
  * bash venv/fedora-install.sh 
  * sudo su
- * source <installation-path>/virtnbdbackup-env/bin/activate
+ * source virtnbdbackup-env/bin/activate
  * virsh list --all
  * virtnbdbackup
 
