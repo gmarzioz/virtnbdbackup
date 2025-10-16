@@ -168,6 +168,9 @@ virt:rhel module, the feature is enabled by default. [(Details)](https://access.
 
 # Fedora
 
+ * dnf install libvirt-devel
+ * requirement-fedora.txt
+
 ## Environment dependencies
  
  * python libvirt module version  >= 6.0.0 (yum install python3-libvirt)
