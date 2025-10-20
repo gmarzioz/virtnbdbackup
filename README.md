@@ -188,6 +188,9 @@ virt:rhel module, the feature is enabled by default. [(Details)](https://access.
  * virtnbdrestore -i /tmp/folder -o /var/lib/libvirt/images/ -cD --name $yourdomain
  * virsh start $yourdomain
 
+ * remote backup
+ * virtnbdbackup -U qemu+ssh://root@hypervisor/system --ssh-user root -d $yourdomain -o  /tmp/backupset/$yourdomain
+
 
 ## Environment dependencies
  
