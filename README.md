@@ -174,7 +174,13 @@ virt:rhel module, the feature is enabled by default. [(Details)](https://access.
  * sudo su
  * source virtnbdbackup-env/bin/activate
  * virsh list --all
- * virtnbdbackup
+ * yourdomain=yourdomainname
+ * virtnbdbackup -d $yourdomain -l full -o /tmp/folder
+ * virtnbdbackup -d $yourdomain -l inc -o /tmp/folder
+ * ls /tmp/folder
+ * virsh undefine --domain $yourdomain --remove-all-storage --delete-snapshots
+ * virsh undefine --domain $yourdomain --remove-all-storage --checkpoints-metadata
+ * virtnbdrestore -i /tmp/folder -o /var/lib/libvirt/images/ -cD --name $yourdomain
 
 
 ## Environment dependencies
